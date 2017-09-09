@@ -4,7 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-# Basic Algorithm of finding out GCD of two numbers Using few lists   
+# Basic Algorithm for finding out GCD of two numbers using lists   
    
 def gcd(m,n):
     fm = []
