@@ -45,15 +45,4 @@ gcd1(9999, 100000)
 gcd1(20000, 35608)
 
 
-# Do we need lists at all? Scan Backwards.
-
-def gcd2(m,n):
-    print("Results from gcd2")
-    for i in range(min(m,n), 1):
-        if (m % i) == 0 & (n % i) == 0:
-            print(i)
-            
-gcd2(21, 63)
-gcd2(9999, 100000)
-gcd2(20000, 35608)
-        
+# Do we need lists at all? Scan Backwards.       
